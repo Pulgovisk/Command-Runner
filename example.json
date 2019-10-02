@@ -1,0 +1,19 @@
+{
+	"pre_run": [
+		"run_some_program"
+	],
+	"post_run": [
+		"run_some_program"
+	],
+	"command_line": "{command}",
+	"replacements": [
+		{
+			"name": "Build File main.rs",
+			"command": "cargo build"
+		},
+		{
+			"name": "Update subversion",
+			"commnad": "svn update"
+		}
+	]
+}
